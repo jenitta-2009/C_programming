@@ -1,0 +1,12 @@
+//print all the multiples of 2;input=15
+#include <stdio.h>
+int main()
+{
+    for (int i=1;i<=15;i++)
+    {
+        if(i%2==0)
+        {
+            printf("%d\n",i);
+        }
+    }
+}
